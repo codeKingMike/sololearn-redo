@@ -3,3 +3,21 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+#mainHeader {
+  width: 70%;
+  margin: 0 auto;
+}
+
+#mainPageHeader {
+  height: 72vh;
+  background: url("https://www.sololearn.com/Images/bg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#mainHeader,
+header a,
+nav h1 {
+  color: #fff;
+}
