@@ -12,7 +12,8 @@ p {
 }
 #mainHeader,
 #cardLang,
-#digits {
+#digits,
+#companyContext {
   width: 70%;
   margin: 0 auto;
 }
@@ -160,4 +161,56 @@ p.textRight {
 }
 #digit img {
   width: auto;
+}
+/* COMPANY AREA */
+#companySection {
+  text-align: center;
+  min-height: 450px;
+  padding: 35px 0;
+}
+#companySection h2 {
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  margin-bottom: 10px;
+}
+#companyContext .heading-text {
+  font-size: 1.3em;
+}
+#companySection .numberBold {
+  font-weight: 700;
+  font-size: 1.9rem;
+}
+#companySection a {
+  color: #484848;
+}
+#companySection a:hover {
+  color: #1abc9c;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.icons i {
+  margin: 0 20px 0 0;
+}
+#companySection .card {
+  margin-bottom: 30px;
+}
+#companySection .card:hover {
+  border: 1.5px solid #1abc9c;
+}
+#companySection .card-text {
+  font-size: 0.94rem;
+  padding: 10px 5px;
+}
+.companyBottom img {
+  border-radius: 50%;
+  margin: 0 0 30px 0;
+  height: 100px;
+  width: 100px;
+}
+.companyBottom h5,
+.companyBottom p {
+  font-size: 1rem;
 }
