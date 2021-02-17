@@ -214,3 +214,37 @@ p.textRight {
 .companyBottom p {
   font-size: 1rem;
 }
+/* BE A MEMBER SECTION */
+#member {
+  text-align: center;
+  min-height: 200px;
+  background-color: #eaedf1;
+}
+#member h2 {
+  padding: 35px 0 5px 0;
+  font-weight: 500;
+}
+#member a {
+  background-color: #1abc9c;
+  border: 1px solid #1abc9c;
+  border-radius: 50px;
+  padding: 10px 130px;
+  font-weight: 500;
+  color: #fff;
+  margin-top: 10px;
+}
+#member a:hover {
+  background-color: #17a68a;
+  border: 1px solid #17a68a;
+}
+/* LEARN PLAY */
+#learn {
+  text-align: center;
+  height: 10vh;
+  background-color: #3a464b;
+  color: #fff;
+}
+#learnPlay h5 {
+  line-height: 10vh;
+  font-weight: 500;
+}
