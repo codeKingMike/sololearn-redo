@@ -5,6 +5,7 @@
 }
 body {
   font-size: 18px;
+  font-family: sans-serif;
 }
 p {
   font-size: 1.1rem;
@@ -57,7 +58,7 @@ header a.btn-lg {
   border-radius: 50px;
   padding: 9px 50px;
   margin-top: 10px;
-  font-weight: 600;
+  font-weight: 500;
 }
 header a.btn-lg:hover {
   background-color: #17a68a;
@@ -77,7 +78,7 @@ header a.btn-lg:hover {
   border-radius: 50%;
   height: 100px;
   width: 100px;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 img.center {
   margin-left: auto;
@@ -90,12 +91,18 @@ img.center {
 }
 #cardLang p {
   font-size: 0.9rem;
+  line-height: 1.6rem;
+  margin-top: 20px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 a.backgroundChange {
   background-color: #1abc9c;
   color: #fff;
   border-radius: 50px;
   margin-top: 10px;
+  margin-bottom: 10px;
   padding: 10px 20px;
   font-weight: 500;
   border: 1px solid #1abc9c;
