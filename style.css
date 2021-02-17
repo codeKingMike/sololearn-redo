@@ -6,10 +6,15 @@
 body {
   font-size: 18px;
 }
-#mainHeader {
+p {
+  font-size: 1.1rem;
+}
+#mainHeader,
+#cardLang {
   width: 70%;
   margin: 0 auto;
 }
+/* MAIN HEADING AND NAVBAR */
 #mainPageHeader {
   height: 72vh;
   background: url("https://www.sololearn.com/Images/bg.jpg");
@@ -53,4 +58,63 @@ header a.btn-lg {
   padding: 9px 50px;
   margin-top: 10px;
   font-weight: 600;
+}
+header a.btn-lg:hover {
+  background-color: #17a68a;
+  color: #fff;
+  border-radius: 50px;
+  padding: 9px 50px;
+  margin-top: 10px;
+  font-weight: 600;
+}
+/* CARD LANGUAGE COURSES */
+#cardLanguage {
+  min-height: 500px;
+  padding: 40px 0;
+  text-align: center;
+}
+#cardLanguage img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin-top: 40px;
+}
+img.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+.cardLan {
+  width: 290px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+  margin: 0 auto;
+}
+#cardLang p {
+  font-size: 0.9rem;
+}
+a.backgroundChange {
+  background-color: #1abc9c;
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-weight: 500;
+  border: 1px solid #1abc9c;
+}
+a.backgroundChange:hover {
+  background-color: #17a68a;
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-weight: 500;
+  border: 1px solid #17a68a;
+}
+a.viewCourses {
+  color: #1abc9c;
+  text-decoration: none;
+  margin-top: 50rem;
+  font-weight: 600;
+}
+a.viewCourses:hover {
+  text-decoration: underline;
 }
