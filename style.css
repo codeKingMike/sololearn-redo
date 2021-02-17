@@ -13,7 +13,8 @@ p {
 #mainHeader,
 #cardLang,
 #digits,
-#companyContext {
+#companyContext,
+#footer-content {
   width: 70%;
   margin: 0 auto;
 }
@@ -247,4 +248,32 @@ p.textRight {
 #learnPlay h5 {
   line-height: 10vh;
   font-weight: 500;
+}
+/* FOOTER AREA */
+#footer-section {
+  background-color: #eaedf1;
+  min-height: 300px;
+  padding: 35px;
+}
+#footer-content i {
+  background: #1abc9c;
+  padding: 25px;
+  color: #fff;
+}
+span.atSolo {
+  background: #fff;
+  padding: 35px 60px;
+  font-weight: 600;
+  color: #b4bbc2;
+}
+#footer-content a {
+  text-decoration: none;
+}
+#footer-content p.company {
+  font-size: 14.5px;
+  padding-top: 20px;
+}
+#footer-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
