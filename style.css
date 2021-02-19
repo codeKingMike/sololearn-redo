@@ -255,6 +255,10 @@ p.textRight {
   min-height: 300px;
   padding: 35px;
 }
+#footer-content {
+  display: flex;
+  justify-content: space-around;
+}
 #footer-content i {
   padding: 25px;
   color: #fff;
@@ -278,14 +282,33 @@ span.atSolo {
 span.atSolo:hover {
   color: #92989e;
 }
+.home {
+  color: #383737 !important;
+  font-size: 3rem;
+}
+#footer-content li {
+  list-style-type: none;
+  color: #b4bbc2;
+  font-size: 15.5px;
+  font-weight: bold;
+  line-height: 1.6rem;
+}
+#footer-content li:hover {
+  color: #92989e;
+}
 #footer-content a {
   text-decoration: none;
+}
+.text-blue {
+  color: #86a7c3;
+}
+#footer-content h1 {
+  color: rgb(252, 253, 253);
+}
+.grey-text {
+  color: #b2b2b4;
 }
 #footer-content p.company {
   font-size: 14.5px;
   padding-top: 20px;
-}
-#footer-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
 }
