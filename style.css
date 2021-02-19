@@ -282,10 +282,6 @@ span.atSolo {
 span.atSolo:hover {
   color: #92989e;
 }
-.home {
-  color: #383737 !important;
-  font-size: 3rem;
-}
 #footer-content li {
   list-style-type: none;
   color: #b4bbc2;
@@ -311,4 +307,30 @@ span.atSolo:hover {
 #footer-content p.company {
   font-size: 14.5px;
   padding-top: 20px;
+}
+address {
+  color: #b4bbc2;
+  font-size: 14.5px;
+  font-weight: 500;
+}
+.solo-address button {
+  background: #1abc9c;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 1rem;
+  border: 1px solid #1abc9c;
+}
+.solo-address button:hover {
+  background: #17a68a;
+  color: #fff;
+  border: 1px solid #17a68a;
+}
+.copyright {
+  text-align: center;
+  min-height: 2vh;
+  line-height: 2vh;
+  font-size: 0.9rem;
+  margin-top: 30px;
+  font-weight: bold;
 }
