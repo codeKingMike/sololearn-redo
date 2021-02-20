@@ -372,6 +372,9 @@ address {
     text-align: center;
     justify-content: center;
   }
+  footer i {
+    margin: 3px 0;
+  }
   #footer-content li {
     margin-right: 40px;
   }
