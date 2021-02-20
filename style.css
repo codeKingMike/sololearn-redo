@@ -360,6 +360,9 @@ address {
   #digits img {
     margin: 20px 0;
   }
+  #member a {
+    padding: 10px 60px;
+  }
   .atSolo {
     display: none;
   }
